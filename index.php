@@ -5,10 +5,11 @@
 <body>
 <p>
     <?php
-    echo "Hello World";
-    echo 5 * 5;
+    echo "Hello World \n";
+    echo 5 * 5 . "\n";
     $Var = 10 * 10;
-    echo "test test" . $var;
+    echo "test test" . $Var;
+
 
 
     ?>
