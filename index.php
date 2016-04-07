@@ -6,8 +6,10 @@
 <p>
     <?php
 
-    echo "hello, world!";
-    echo "Hello, " . " " . "World!";
+    $myname = "frodo Baggins";
+    $myage  = "111";
+
+    echo "My name is " . $myname . " and my age is " . $myage;
 
     ?>
 </p>
