@@ -25,12 +25,16 @@
     array_push($Array_People, "Person 15");
 
     $Spec_Winner = rand(0,14);
-    $Mugs_Winner = rand(0,14);
-    $SausageRolls_Winner = rand(0,14);
-
     print "The specs winner is " . $Array_People[$Spec_Winner];
+    unset($Array_People[$Spec_Winner]);
+
+    $Mugs_Winner = rand(0,13);
     print "The Mugs winner is " . $Array_People[$Mugs_Winner];
+    unset($Array_People[$Mugs_Winner]);
+    
+    $SausageRolls_Winner = rand(0,12);
     print "The Sausage Rolls winner is " . $Array_People[$SausageRolls_Winner];
+    unset($Array_People[$SausageRolls_Winner]);
 
     ?>
 </p>
