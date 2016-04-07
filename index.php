@@ -9,19 +9,16 @@
    for ($i =1; $i<31; $i++)
    {
 
-
-
-
-       //if($i = 1)
+       if($i == 1)
        {
            echo "On the" . $i . "st day of the month";
        }
-       /*
-       else if($i = 2)
+
+       else if($i == 2)
        {
            echo "On the" . $i . "nd day of the month";
        }
-       else if($i = 3)
+       else if($i == 3)
        {
            echo "On the" . $i . "rd day of the month";
        }
@@ -29,7 +26,7 @@
        {
            echo "On the" . $i . "th day of the month";
        }
-       */
+
    }
 
     ?>
