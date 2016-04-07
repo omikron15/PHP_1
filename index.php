@@ -8,14 +8,15 @@
 
    for ($i =1; $i<31; $i++)
    {
-       print $i;
 
 
-        /*
+
+        
        if($i = 1)
        {
            echo "On the" . $i . "st day of the month";
        }
+       /*
        else if($i = 2)
        {
            echo "On the" . $i . "nd day of the month";
