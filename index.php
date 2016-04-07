@@ -24,9 +24,9 @@
     array_push($Array_People, "Person 14");
     array_push($Array_People, "Person 15");
 
-    $Spec_Winner = rand(1,15);
-    $Mugs_Winner = rand(1,15);
-    $SausageRolls_Winner = rand(1,15);
+    $Spec_Winner = rand(0,14);
+    $Mugs_Winner = rand(0,14);
+    $SausageRolls_Winner = rand(0,14);
 
     print "The specs winner is " . $Array_People[$Spec_Winner];
     print "The Mugs winner is " . $Array_People[$Mugs_Winner];
