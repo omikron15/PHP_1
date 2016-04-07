@@ -11,8 +11,8 @@
 
 
 
-        
-       if($i = 1)
+
+       //if($i = 1)
        {
            echo "On the" . $i . "st day of the month";
        }
