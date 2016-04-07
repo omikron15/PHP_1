@@ -8,7 +8,7 @@
 
    $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
 
-    $provisionedActivities[1] = "Hugs";
+   unset($provisionedActivities[2]);
 
     foreach($provisionedActivities as $x) {
 
