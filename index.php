@@ -6,24 +6,14 @@
 <p>
     <?php
 
-   $wantedgood = "Sausage roll";
+   $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
 
-    switch($wantedgood)
-    {
-        case "Specs":
-            echo "16";
-            break;
-        case "Mugs":
-            echo "18";
-            break;
-        case "Sausage roll":
-            echo "21";
-            break;
+    foreach($provisionedActivities as $x) {
 
-
+        print "<p>$x</p>";
 
     }
-
+    
     ?>
 </p>
 </body>
