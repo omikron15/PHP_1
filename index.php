@@ -6,7 +6,7 @@
 <p>
     <?php
 
-   $wantedgood = "Specs";
+   $wantedgood = "Sausage roll";
 
     switch($wantedgood)
     {
