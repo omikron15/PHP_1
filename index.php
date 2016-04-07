@@ -7,7 +7,7 @@
     <?php
 
     $myname = "Connor Rose";
-    $myage = "10";
+    $myage = "16";
 
     if ($myage < 16)
     {
