@@ -8,12 +8,14 @@
 
    $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
 
+    $provisionedActivities[1] = "Hugs";
+
     foreach($provisionedActivities as $x) {
 
         print "<p>$x</p>";
 
     }
-    
+
     ?>
 </p>
 </body>
